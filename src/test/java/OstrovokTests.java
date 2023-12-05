@@ -9,6 +9,6 @@ public class OstrovokTests  extends TestBase{
     @DisplayName("В форме авторизации отображаются email,пароль,кнопка входа ")
     void formAvtorizationHasFields() {
             main.changeLang();
-            main.checkFieldsAvtorization();
+            main.checkFieldsAutorization();
     }
 }
