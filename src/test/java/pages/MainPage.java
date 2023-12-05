@@ -11,7 +11,7 @@ public class MainPage {
         menu.changeLanguage("Русский");
     }
 
-    public void checkFieldsAvtorization() {
+    public void checkFieldsAutorization() {
 
         menu.openFormAvtorization();
         menu.fieldEmail.shouldBe(exist, visible);
